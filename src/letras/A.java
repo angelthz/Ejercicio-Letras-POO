@@ -16,7 +16,13 @@ public class A extends Letra implements Printable {
     //
     // Constructors
     //
-    //Herrera improvement public A () { };
+    //Herrera improvement
+    /*
+    * Angel añadi el constructor por defecto (vacio) para la clase A
+    */
+    public A () { 
+        super();
+    };
     /**
      * Es el constructor de la clase A
      *
