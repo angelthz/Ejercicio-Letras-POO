@@ -17,14 +17,21 @@ public class Letra {
     //
     // Constructors
     //
-    //Herrera improvement public Letra () { };
+    //Herrera improvement
+    /**
+     * "Es el constructor por defecto (vacio) la clase Letra"
+     *  Añadido por ANGELTH
+     */
+    public Letra () { };
     /**
      * "Es el constructor de la clase Letra"
      *
      * @param letra "El parametro letra sirve para asignar un valor al atributo
      * letra de la clase letra, es de tipo char"
+     * Angel TH añadio el constructor de la superclase Letra
      */
     public Letra(char letra) {
+        this.letra = letra;
     }
 
     //
