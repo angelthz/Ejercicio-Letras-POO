@@ -18,7 +18,7 @@ public class A extends Letra implements Printable {
     //
     //Herrera improvement
     /*
-    * Angel añadi el constructor por defecto (vacio) para la clase A
+    * Angel añadio el constructor por defecto (vacio) para la clase A
     */
     public A () { 
         super();
@@ -41,11 +41,16 @@ public class A extends Letra implements Printable {
     //
     // Other methods
     //
+    
     /**
      * Implementacion del metodo Print de la interface Printable
+     * Autor: Angel TH
+     * Se añadio el codigo para mostrar un mensaje par indicar
+     * desde que clase se esta haciendo el print
      */
     @Override
     public void print() {
+        System.out.println("Haciendo print desde la Clase A");
     }
 
 }
