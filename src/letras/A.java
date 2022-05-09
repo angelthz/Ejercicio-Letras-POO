@@ -53,6 +53,8 @@ public class A extends Letra implements Printable {
         System.out.println("Haciendo print desde la Clase A");
 
         System.out.System.out.print("Soy una letra");
+                System.out.System.out.print("Soy otra letra");
+
     }
 
 }
