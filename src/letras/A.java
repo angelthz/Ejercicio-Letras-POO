@@ -51,6 +51,8 @@ public class A extends Letra implements Printable {
     @Override
     public void print() {
         System.out.println("Haciendo print desde la Clase A");
+
+        System.out.System.out.print("Soy una letra");
     }
 
 }
